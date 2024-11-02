@@ -146,6 +146,36 @@ body {
   }
 }
 
+
+
+    /* Card Styles */
+    .card { background: #fff; padding: 30px; border-radius: 10px; max-width: 600px; margin: auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); text-align: left; }
+    .card h2 { font-size: 2em; margin-bottom: 20px; color: #333; }
+    .card p { font-size: 1em; color: #555; line-height: 1.6; }
+    
+/* Services Section Styling */
+.services { padding: 40px; text-align: center; background: #f9f9f9; }
+.services h2 { font-size: 2em; margin-bottom: 20px; color: #333; }
+.services-container { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; }
+.service-card { background: #e9e3ff; padding: 20px; border-radius: 10px; width: 280px; text-align: left; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease; }
+.service-card:hover { transform: translateY(-5px); }
+.service-icon { font-size: 2em; color: #333; margin-bottom: 10px; }
+.service-title { font-size: 1.2em; font-weight: bold; color: #333; margin-bottom: 10px; }
+.service-description { font-size: 1em; color: #555; }
+    
+/* About Us Section Styling */
+.about-us { padding: 40px; background: #fafafa; display: flex; justify-content: center; }
+.about-card { background: #fff; padding: 30px; border-radius: 10px; max-width: 600px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); text-align: center; }
+.about-card h2 { font-size: 2em; margin-bottom: 20px; color: #333; }
+.about-card p { font-size: 1em; color: #555; line-height: 1.6; }
+
+.privacy-policy, .contact { padding: 40px; text-align: center; background: #f4f4f4; }
+
+/* Contact Section */
+.contact-form input, .contact-form textarea, .contact-form button { width: 100%; padding: 10px; margin-top: 10px; font-size: 1em; border: 1px solid #ddd; border-radius: 5px; }
+.contact-form button { background-color: #333; color: #fff; border: none; cursor: pointer; }
+.contact-form button:hover { background-color: #555; }
+
 /* Footer */
 .footer {
   background-color: #111;
